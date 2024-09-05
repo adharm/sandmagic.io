@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sand Magic</title>
-    <link rel="icon" href="/static/images/favicon.ico"/>
+    <link rel="icon" href="./static/images/favicon.ico"/>
     <style>
         @font-face {
             font-family: 'CalSans-SemiBold';
-            src: url('/static/fonts/CalSans-SemiBold.ttf') format('truetype');
+            src: url('./static/fonts/CalSans-SemiBold.ttf') format('truetype');
         }
         body {
-            background-image: url('/static/images/background.png');
+            background-image: url('./static/images/background.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -55,10 +55,10 @@
             <p style="color: #999999; font-size: 1.5em;">Solving problems with applied artificial intelligence</p>
             <div class="icon-links">
                 <a href="https://cal.com/anirudh-sandmagic" class="icon-link">
-                    <img src="/static/images/calendar.svg" alt="Calendar">
+                    <img src="./static/images/calendar.svg" alt="Calendar">
                 </a>
                 <a href="mailto:anirudh@sandmagic.io" class="icon-link">
-                    <img src="/static/images/mail.svg" alt="Email">
+                    <img src="./static/images/mail.svg" alt="Email">
                 </a>
             </div>
         </div>
@@ -67,7 +67,7 @@
     <script>
         window.addEventListener('load', function() {
             var img = new Image();
-            img.src = '/static/images/background.png';
+            img.src = './static/images/background.png';
             img.onload = function() {
                 document.getElementById('content').style.display = 'block';
             };
